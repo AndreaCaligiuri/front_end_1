@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    text-align: left;
+}
+
+main section.banner{
+    background-image: url("../img/foto_lemon_pie.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 343px;
+}
+
+section.banner ~ section{
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+i.fas{
+    color: rgb(230, 169, 88);
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+}
